@@ -231,7 +231,7 @@ red_buy.onclick = function(){
 		   		}
 		   		
 		 }else {
-		 
+		     obj.price = "￥" + obj.price.replace("￥ ",'')*obj.count;
 		 	   shopcar.unshift(obj);
 		 	  
 		 }
