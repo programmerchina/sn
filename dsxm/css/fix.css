@@ -1,0 +1,243 @@
+.fix_right {
+	width: 35px;
+	height: 100%;
+	background: #383838;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 999999999999999999;
+}
+.fix_right a {
+	display: block;
+
+}
+.fix_right a em {
+	display: block;
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: 0!important;
+}
+.fix_right a:nth-child(1) {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: 170px;
+}
+
+.fix_right a:nth-child(1) em {
+	background: url(../imgs/index/sidebaricon.png) -26px 0;
+}
+.fix_right a:nth-child(3) {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: 335px;
+    background: url(../imgs/index/sidebaricon.png) -26px -23px;	
+}
+.ggg {
+  background-position: 0px -23px!important;		
+}
+.ppp {
+  background-position: 0px 0px!important;	
+}
+.aaa {
+  background-position: 0px -47px!important;	
+}
+.bbb{
+  background-position: 0px -70px!important;	
+}
+.ccc {
+  background-position: 0px -93px!important;	
+}
+.ddd {
+  background-position: 0px -117px!important;	
+}
+.eee {
+  background-position: 0px -138px!important;	
+}
+.rrr {
+  background-position: 0px -163px!important;	
+}
+.jjj {
+    background-position: 0px -186px!important;	
+}
+.fix_right a:nth-child(4) em {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: 373px;
+	background: url(../imgs/index/sidebaricon.png) -26px -47px;
+}
+.fix_right a:nth-child(5) em {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: 408px;
+	background: url(../imgs/index/sidebaricon.png) -26px -70px;
+}
+.fix_right a:nth-child(6) em {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	top: 440px;
+	background: url(../imgs/index/sidebaricon.png) -26px -93px;
+}
+.fix_right a:nth-child(7) em {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	bottom: 120px;
+	background: url(../imgs/index/sidebaricon.png) -26px -117px;
+}
+.fix_right a:nth-child(8) em {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	bottom: 90px;
+	background: url(../imgs/index/sidebaricon.png) -26px -138px;
+}
+.fix_right a:nth-child(9) em {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	bottom: 56px;
+	background: url(../imgs/index/sidebaricon.png) -26px -163px;
+}
+.fix_right a:nth-child(10) em {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	bottom: 20px;
+	background: url(../imgs/index/sidebaricon.png) -26px -186px;
+}
+.fix_right a {
+	z-index: 999999999999;
+}
+.fix_right a:nth-child(2), .fix_right a:nth-child(2) em {
+	width: 31px;
+	height: 118px;
+	position: absolute;
+	top: 208px;
+	margin: 0 2px;
+	text-align: center;
+    border-bottom: 1px solid #4D4D4D;
+	border-top: 1px solid #4D4D4D;
+}
+.fix_right a:nth-child(2) span {
+	display: block;
+	width: 31px;
+	height: 16px;
+	margin: 10px auto;
+	background: url(../imgs/index/sidebaricon.png) 0 -218px;
+}
+.fix_right a:nth-child(2) i {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+.fix_right a:nth-child(2) p {
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 5px;
+	background: #d00;
+	font-size: 12px;
+	line-height: 15px;
+	color: #fff;
+	margin-top: 10px;
+}
+/***************************/
+.fix_top {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    min-width: 990px;
+    background: #fff;
+    box-shadow: rgba(0,0,0,.2) 0 1px 5px;
+    left: 0;
+    top: 0;
+    opacity: .95;
+    z-index: 99999;
+}
+.fix-ul {
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: 296px;	
+}
+.fix-ul li {
+	margin-top: 15px;
+	margin-right: 22px;
+	float: left;
+}
+.fix-ul li a {
+	display: inline;
+}
+.fix-top-one {
+	margin-left: -595px!important;
+	top: 6px;
+    height: 38px;
+}
+.fix-qbz {
+	margin-top: 6px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+} 
+/*********************/
+.fix_left {
+	width: 70px;
+	height: 320px;
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #DDD;
+    background: #f8f8f8;
+    z-index: 9999;
+    margin-left: -670px;
+    display: block;
+}
+.fix_gg {
+	width: 100%;
+	height: 100%;
+	background: #f8f8f8;
+    overflow: hidden;
+}
+.fix_left_top {
+	width: 45px;
+	height: 37px;
+	position: absolute;
+	top: -31px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 99999;
+	background: url(../imgs/index/index.png) -302px -80px;
+	
+}
+.fix_left_bot {
+	background: url(../imgs/index/index.png) -230px -183px;;
+}
+.fix_gg li {
+	width: 68px;
+    height: 28px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+}
+.fix_left li a {
+	color: #333;
+}
+.hover {
+	position: relative;
+    width: 70px;
+    left: -1px;
+    background: #F90;
+}

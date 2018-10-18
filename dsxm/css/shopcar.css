@@ -1,0 +1,577 @@
+html,body {
+    font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    height: auto!important;
+	
+}
+.kong {
+	width: 990px;
+	height: 260px;
+	margin: 0 auto;
+}
+.kong_in {
+	margin-top: 30px;
+	height: 206px;
+    padding: 47px 0 57px 407px;
+    background-position: 202px 47px;
+    /*padding-left: 507px;*/
+    background: url(../imgs/shopcar/cart-empty-bg2.png) 124px 47px no-repeat #fff;
+}
+.kong_in h2 {
+	padding-top: 40px;
+    font: 400 18px/40px "Microsoft YaHei";
+    color: #333;
+}
+.kong_in h2 a {
+	padding: 5px 12px;
+	background-color: #f60;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: "Microsoft YaHei";
+    
+}
+.nav .center .left {
+	margin-left: 80px;
+} 
+.nav .center .right {
+   width: 656px!important;
+} 
+.carhead {
+	height: 100px;
+}
+.carhead_top {
+	width: 990px;
+	height: 100px;
+	margin: 0 auto;
+}
+.carhead_top_logo {
+	width: 400px;
+	height: 100px;
+	float: left;
+}
+.carhead_top_logo a img {
+	margin-top: 20px;
+}
+.cart-search {
+    position: relative;
+    float: right;
+    width: 400px;
+    margin-top: 34px;
+    z-index: 999;
+    color: #333;
+    float: left;
+    margin-left: 190px;
+}
+.cart-search .cart-search-box {
+    float: left;
+    width: 318px;
+    height: 28px;
+    border: 2px solid #f50;
+    border-right-color: rgb(255, 85, 0);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right: 0 none;
+}
+.cart-search .cart-search-box .search-icon {
+    float: left;
+    width: 13px;
+    height: 13px;
+    margin: 8px 0 0 11px;
+    background: url(../imgs/shopcar/lion-cart.png) -200px -70px no-repeat;
+}
+.cart-search .cart-search-box .cart-search-input {
+    float: left;
+    width: 285px;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 0;
+    margin-left: 9px;
+    border: 0;
+    background: #fff;
+    outline: none;
+}
+.cart-search .cart-search-btn {
+    float: left;
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+    background: #f50;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    color: #fff;
+}
+/**************/
+.carbo {
+	width: 990px;
+	margin: 0 auto;
+	height: 34px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+.carbo_city {
+	float: left;
+    position: relative;
+    z-index: 30;
+    width: 146px;
+    height: 26px;
+    
+}
+.sh {
+	margin-right: 7px;
+    line-height: 26px;
+    color: #666;
+    float: left;
+}
+.carbo_city_in {
+    padding: 4px 5px 4px 6px !important;
+    float: left;
+    display: inline-block;
+	border: 1px solid #bbb;
+	padding: 6px 5px 6px 6px;
+	color: #000;
+	background: #fff;
+	position: relative;
+	
+}
+.ct {
+	padding-right: 5px;
+}
+.arr {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-color: #bbb transparent transparent;
+	border-width: 5px;
+	border-style: solid dashed dashed;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.box_top {
+	width: 988px;
+	height: 32px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    color: #666;
+    margin-bottom: 23px;
+}
+.check {
+	position: relative;
+	width: 226px!important;
+	text-align: left;
+	overflow: hidden;
+}
+.th {
+	float: left;
+	height: 32px;
+	line-height: 32px;
+}
+.checkbo label, .shop {
+    width: 14px;
+	height: 14px;
+	background: url(../imgs/shopcar/lion-cart.png) 0 -20px;   /*-20px*/
+	position: relative;
+	z-index: 2;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;  
+	margin: 10px 10px 0 10px;      
+	
+}
+.cart-list .list_chk {
+	float: left;
+	width: 47px;
+	height: 80px;
+}
+label.mark {
+	background: url(../imgs/shopcar/lion-cart.png) 0 -36px;   /*-20px*/
+}
+.checkbo {
+	float: left;
+	width: 15px;
+	overflow: hidden;
+}
+#all, .shopChoice {
+	position: absolute;
+	top: -28px;
+	left: -38px;
+	opacity: 0;
+}
+.item {
+	width: 169px;
+}
+.specs {
+	width: 135px;
+}
+.price {
+	width: 120px;
+}
+.amount {
+	width: 95px;
+}
+.sum {
+	width: 115px;
+    padding-left: 30px;
+}
+.title {
+	width: 990px;
+	margin: 0 auto;
+	position: relative;
+}
+.shop_info {
+	margin-bottom: 7px;
+    line-height: 26px;
+    width: 990px;
+    height: 26px;
+}
+.lion-self-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    overflow: hidden;
+    float: left;
+    margin-top: 4px;
+    background: url(../imgs/shopcar/lion-cart.png) no-repeat;
+}
+.shop_name a {
+	color: #666;
+	font-weight: 700;
+	margin-right: 20px;
+}
+.cart-list {
+    width: 950px;
+    height: 110px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: -1px;
+	padding: 15px 20px;
+	border: 1px solid #dfdfdf;
+	background-color: #fffbf2;
+}
+
+.list_con {
+	width: 313px;
+	height: 80px;
+	float: left;
+	position: relative;
+}
+.list_img img {
+	width: 80px;
+	height: 80px;
+	display: block;
+    background: #fff;
+}
+.list_img {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 15px;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+.list_text {
+	float: left;
+	width: 179px;
+	line-height: 16px;
+	float: left;
+}
+.list_text a {
+	display: block;
+	clear: both;
+	margin-bottom: 2px;
+	max-height: 36px;
+	line-height: 18px;
+	color: #333;
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+.shoping {
+	position: absolute;
+	left: 95px;
+	bottom: 0;
+}
+.zz {
+	color: #28E;
+}
+.sn {
+	margin-left: 6px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: center;
+	background-color: #f60;
+	color: #fff;
+	display: inline-block;
+	width: 14px;
+	height: 17px;
+	line-height: 17px;
+	border-radius: 3px;
+	float: none;
+}
+.list_info {
+	position: relative;
+    width: 103px;
+    height: 80px;
+    float: left;
+}
+.list_info p {
+	width: 103px;
+	height: 18px;
+	color: #999;
+}
+.list_price {
+	width: 106px;
+	height: 80px;
+	float: left;
+}
+.list_price .price {
+	padding-left: 42px;
+}
+.list_amount {
+	width: 116px;
+	height: 80px;
+	float: left;
+	position: relative;
+	width: 116px;
+	text-align: center;
+}
+.amount_box {
+	width: 70px;
+	padding-left: 40px;
+	height: 22px;
+	overflow: hidden;
+	text-align: center;
+}
+.amount_box a {
+	float: left;
+	width: 22px;
+	height: 22px;
+	background: url(../imgs/shopcar/lion-cart.png) -87px 0 no-repeat;
+	background-repeat: no-repeat;
+	background-color: #f1f1f1;
+	line-height: 100px;
+	overflow: hidden;
+}
+.amount_box input {
+	float: left;
+	width: 26px;
+	padding: 3px 0;
+	border-width: 1px 0;
+	color: #666;
+	height: 14px;
+	transition: none;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    
+}
+.plus {
+	margin-right: -3px;
+    background-position: -111px 0!important;
+}
+.list_sum {
+	width: 126px;
+	height: 80px;
+	float: left;
+	text-align: right;
+	font-weight: 700;
+}
+.amount_msg {
+	margin-left: 34px;
+	text-align: center;
+	color: #999;
+	line-height: 16px;
+	margin-top: 8px;
+}
+.amo {
+	text-align: right;
+	color: #999;
+	margin-right: 30px;
+}
+.list_op {
+	width: 58px;
+	padding-left: 53px;
+	text-align: left;
+	float: left;
+	position: relative;
+}
+.list_op a {
+	color: #666;
+}
+.zenp {
+	width: 747px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	margin-left: 70px;
+}
+.icon-promo {
+	padding: 0 4px;
+	margin-right: 8px;
+	color: #fff;
+	background-color: #f60;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.zenp a {
+	width: 205px;
+	word-break: break-all;
+	overflow: hidden;
+	display: inline-block;
+    vertical-align: middle;
+    color: #333;
+}
+.bar-wrapper {
+	width: 990px;
+	height: 60px;
+	margin: 30px auto 0;
+	position: relative;
+	line-height: 58px;
+	color: #333;
+	border: 1px solid #ccc;
+}
+.calBtn, .calBtn a {
+	position: relative;
+	display: block;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	margin-right: -1px;
+	margin-left: 15px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Microsoft YaHei";
+	color: #fff;
+	float: right;
+	background: #f40;
+}
+.bar-wrapper-left {
+	width: 170px;
+	height: 60px;
+	line-height: 58px;
+	float: left;
+	position: relative;
+}
+.df {
+	margin-left: 35px;
+}
+.bar-right {
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+.bar-right div {
+	float: right;
+}
+.yx {
+	width: 110px;
+	height: 58px;
+	line-height: 30px;
+	margin-left: 52px;
+}
+.al {
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	background: url(../imgs/shopcar/lion-cart.png) no-repeat;
+	background-position: -11px -108px;
+	margin-left: 5px;
+}
+.mj {
+	color: #999;
+	line-height: 30px;
+	padding-right: 30px;
+	
+}
+.split {
+	width: 1px;
+	height: 38px;
+	float: left;
+    margin-top: 12px;
+    margin-right: 16px;
+    font-size: 0;
+    background: #ddd;
+}
+.totalMoney {
+	min-width: 169px;
+	height: 100%;
+	line-height: 30px;
+	text-align: right;
+
+}
+.total_text {
+	font-size: 20px;
+	color: #f60;
+}
+.oo {
+    color: #999;
+    margin-top: -3px;
+    line-height: 10px;
+}
+.son_check {
+	position: absolute;
+    top: 0;
+	left: -10px;	
+
+}
+.my_model {
+	text-align: center;
+	width: 169px;
+	height: 75px;
+    border: 1px solid #ffb84c;
+    background: #FFF;
+    box-shadow: 0 0 3px #f1f1f1;
+    margin-left: -110%;
+    margin-top: 8px;     
+    font-size: 12px;
+}
+.my_model_p {
+	height: 19px;
+	padding: 10px 12px 3px;
+    width: 146px;
+    color: #333;
+	margin-bottom: 6px;
+    
+}
+.qd {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../imgs/shopcar/tipIcon.png) no-repeat;
+	background-position: -34px -136px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.opBtn {
+	width: 169px;
+	text-align: center;
+    padding: 5px 0;
+    height: 22px;
+}
+.opBtn a {
+	display: inline-block;
+	width: 50px;
+	height: 22px;
+	text-align: center;
+	border-radius: 2px;
+	line-height: 22px;
+	background: #fff;
+	border: 1px solid #999;
+	color: #333;
+	
+}
+.opBt a:hover {
+    background: #f40;
+    color: #FFF;
+}
+.mr {
+	background: #f40!important;
+    color: #FFF!important;
+}
