@@ -224,6 +224,7 @@ red_buy.onclick = function(){
 		   		
 		   	}
 		   	if(j == shopcar.length){
+         obj.price = "￥" + obj.price.replace("￥ ",'')*obj.count;
 		   			console.log(1)
 		 	        shopcar.unshift(obj);
 		 	     
